@@ -42,9 +42,9 @@ What is Kickstart?
     - (or HTML version): https://neovim.io/doc/user/lua-guide.html
 
 Kickstart Guide:
+ TODO: The very first thing you should do is to run the command `:Tutor` in Neovim.
 
-  TODO: The very first thing you should do is to run the command `:Tutor` in Neovim.
-
+ NOTE:  this is a todo!
     If you don't know what this means, type the following:
       - <escape key>
       - :
@@ -102,7 +102,7 @@ vim.g.have_nerd_font = false
 vim.o.number = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
--- vim.o.relativenumber = true
+vim.o.relativenumber = true
 
 -- Enable mouse mode, can be useful for resizing splits for example!
 vim.o.mouse = 'a'
