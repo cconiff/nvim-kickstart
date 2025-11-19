@@ -74,6 +74,9 @@ vim.keymap.set('n', 'gl', function()
   vim.diagnostic.open_float()
 end, { desc = 'Popout errors/warnings from lsp into virtual window' })
 
+vim.keymap.set('n', '<leader>e', vim.cmd.NvimTreeToggle, { desc = 'Open up the file tree'}
+)
+
 require("lazy").setup({
   --install and configure mini!
   {
